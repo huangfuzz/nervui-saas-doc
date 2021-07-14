@@ -3,7 +3,7 @@ import type { DefaultThemeOptions } from 'vuepress'
 import path from 'path/posix'
 
 export default defineUserConfig<DefaultThemeOptions>({
-  "base": "/",
+  "base": "/nervui-saas-doc/",
   // lang: 'en-US',
   title: '使用说明文档',
   // description: 'Just playing around',
