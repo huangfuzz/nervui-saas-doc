@@ -1,0 +1,26 @@
+{
+  "name": "vuepressproject",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.2",
+    "@vuepress/plugin-search": "^1.8.2",
+    "vuepress": "^2.0.0-beta.21"
+  },
+  "dependencies": {
+    "@vuepress/core": "^2.0.0-beta.21",
+    "@vuepress/plugin-docsearch": "^2.0.0-alpha.1",
+    "@vuepress/shared-utils": "^1.8.2",
+    "ant-design-vue": "^2.2.1",
+    "markdown-it": "^12.1.0",
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
+}
