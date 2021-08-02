@@ -15,7 +15,7 @@
 <!-- docs\validate-code\code.js
 docs\zh\async_validator\useIntroduction.md -->
 
-## API
+## 接口
 
 ### Validate
 ```js
@@ -263,7 +263,7 @@ const fields = {
   },
 };
 ```
-## FAQ
+## 常问问题
 ### 如何避免警告
 ```js
 import Schema from 'async-validator';
@@ -280,18 +280,5 @@ Schema.warning = function(){};
   message: '',
 }
 ```
-## 测试用例
 
-```
-npm test
-```
 
-## Coverage
-
-```
-npm run coverage
-```
-开放 **coverage/ dir**
-
-## License
-Everything is MIT.
