@@ -4,9 +4,7 @@ import path from 'path/posix'
 
 export default defineUserConfig<DefaultThemeOptions>({
   "base": "/nervui-saas-doc/",
-  // lang: 'en-US',
   title: '使用说明文档',
-  // description: 'Just playing around',
   locales: {
     // 键名是该语言所属的子路径
     // 作为特例，默认语言可以使用 '/' 作为其路径。
@@ -22,26 +20,15 @@ export default defineUserConfig<DefaultThemeOptions>({
 
     },
   },
-  plugins: [
-    [require('vuepress-plugin-code-copy'),true],
-    // ['vuepress-plugin-code-copy',true],
-    [
-      '@vuepress/plugin-search',
-      {
-        locales: {
-          '/en/': {
-            placeholder: 'Search',
-          },
-          '/zh/': {
-            placeholder: '搜索',
-          },
-        },
-      },
-    ],
-
-  ],
+  // plugins: [
+  //     [
+  //     '@vuepress/search',{
+  //       search: true, //默认false
+  //       searchMaxSuggestions: 10 // 默认是5
+  //     }
+  //   ]
+  // ],
   themeConfig: {
-    // logo: 'https://vuejs.org/images/logo.png',
     navbar: require("./nav.ts"),
     sidebar:require("./sidebar.ts"),
     smoothScroll: true,
@@ -49,14 +36,9 @@ export default defineUserConfig<DefaultThemeOptions>({
     displayAllHeaders: false,
     sidebarDepth:1,
   },
-  // extendsMarkdown: (md) => {
-  //   md.use(search);
-  // },
+  
   markdown:{
-    // importCode:{
-    //   handleImportPath: (str) =>
-    //   str.replace(/^@src/, path.resolve(__dirname, 'docs/validate-code')),
-    // }
+    
 
   }
 
