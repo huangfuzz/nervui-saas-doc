@@ -1,0 +1,31 @@
+.theme-default-content:not(.custom) {
+    max-width: 850px;
+    margin: 0;
+}
+.theme-container{
+    font-size: 14px;
+}
+.p{
+    line-height: 1.9;
+}
+.medium-zoom-image {
+    border: 1px solid #dcdfe2;
+}
+th {
+     min-width: 200px; 
+}
+.formDemo{
+    margin-top: 20px;
+    border: 1px solid #dcdfe2;
+    padding: 10px;
+}   
+.nsDemo{
+    margin-left: 15px;
+}
+
+
+// .theme-default-content:not(.custom) {
+//     max-width: var(--content-width);
+//     /* margin: 0 auto; */
+//     padding: 2rem 2.5rem;
+// }
